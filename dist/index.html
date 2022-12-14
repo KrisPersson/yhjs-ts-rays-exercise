@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rays</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div id="app">
+        <img src="img/navicon.svg" alt="nav">
+        <nav>
+            <a href="#" data-route="home">Daily Quote</a>
+            <a href="#" data-route="dailymood">Daily Mood</a>
+            <a href="#" data-route="history">Mood History</a>
+        </nav>
+        <main id="home">
+            <h2>Daily Quote</h2>
+            <blockquote></blockquote>
+        </main>
+        <main id="dailymood">
+            <h2>Daily Mood</h2>
+            <figure>
+                <div class="grade-6"></div>
+            </figure>
+            <footer>
+                <input type="range" name="range" min="1" max="10" step="1" id="moodvalue">
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li>7</li>
+                    <li>8</li>
+                    <li>9</li>
+                    <li>10</li>
+                </ul>
+            </footer>
+        </main>
+        <main id="history">
+            <h2>Mood History</h2>
+            <section></section>
+        </main>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
